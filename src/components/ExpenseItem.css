@@ -1,0 +1,217 @@
+.app {
+  width: 100%;
+}
+.displaying_total_status{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.expense-item {
+  padding: 20px;
+  margin: 20px 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.404);
+  border-radius: 12px;
+  background-color: #2b2b2b;
+}
+.expense-date {
+  display: flex;
+  background-color: #2a2a2a;
+  color: white;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.expense-date__month {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.expense-date__year {
+  font-size: 10px;
+}
+
+.expense-date__day {
+  font-size: 16px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.expense-item_basic_info{
+  width: 100%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.expense-item_extra_info{
+  margin-top: 10px;
+}
+
+.expense-item__description_date_amount h2 {
+  color: #3a3a3a;
+  font-size: 40px;
+  color: white;
+}
+
+.expense-item__price {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.expense-item__div_buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.expense-item__icon {
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.extra_info_plawat_list_header{
+  margin: 10px;
+}
+
+.extra_info_plawat_list_div>p {
+  margin: 5px;
+}
+
+.extra_info_pla_div{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.extra_info_pla_div>p{
+  font-size: 18px;
+}
+.extra_info_pla_name{
+  margin: 0 10px;
+}
+
+
+
+.newExpenseItem_form_amount{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newExpenseItem_form_amount input{
+  margin-left: 15px;
+  text-align: center;
+}
+
+
+.newExpenseItem_form_date{
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newExpenseItem_form_date input{
+  margin-left: 15px;
+  align-items: center;
+}
+
+.newExpenseItem_form_selection_item_div{
+  margin: 10px 0;
+
+}
+.newExpenseItem_form_selection_item_label{
+  margin-right: 55px;
+}
+
+
+/* Check box input */
+.newExpenseItem_form_isItpaid_div{
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+.newExpenseItem_form__input_checkbox{
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+}
+
+
+.newExpenseItem_form_remainingPaid_div{
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newExpenseItem_form_remainingPaid_div input{
+  text-align: center;
+}
+
+.newExpenseItem_form_selection_item_input{
+  width: 35px;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+.newExpenseItem_form_selection_item_div select{
+  margin-left: 15px;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.newExpenseItem_form_div{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.404);
+  border-radius: 12px;
+  margin: 20px 30px;
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+.newExpenseItem_form{
+  width: 100%;
+  padding: 15px;
+}
+.newExpenseItem_form button{
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: #2a2a2a;
+  cursor: pointer;
+}
+.newExpenseItem_form_button_div{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.newExpenseItem_form__input{
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  border: #3a3a3a;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newExpenseItem_form_selection_item_li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 5px;
+  font-size: 18px;
+}
+.newExpenseItem_form_selection_item__icon{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}

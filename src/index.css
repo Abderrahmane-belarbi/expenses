@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #191919;
+    color: #eee;
+}
+.app{
+    width: 800px;
+    margin: 0 auto;
+}
